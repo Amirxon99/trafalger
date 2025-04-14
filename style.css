@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 46px 0;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: gray;
+}
+nav ul li a:hover {
+  color: black;
+  font-weight: 700;
+}
+
+.hero {
+  padding: 91px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 56px;
+}
+.hero p {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 32px;
+  color: #7d7987;
+  margin-top: 26px;
+  margin-bottom: 35px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #458ff6;
+  padding: 17px 51px;
+  border: 1.4px solid #458ff6;
+  background-color: white;
+  border-radius: 55px;
+}
+.btn:hover {
+  background-color: #458ff6;
+  color: white;
+}
+.hero-text {
+  width: 400px;
+}
+
+.services {
+  padding: 91px 0;
+}
+.services h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.services-p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #7d7987;
+  width: 952px;
+  margin: 20px auto;
+}
+.card {
+  width: 380px;
+  height: 380px;
+  padding: 71px 39px;
+  background: #e7e7e7;
+  box-shadow: 10px 40px 50px 0px #e5e9f666;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.card h3 {
+  margin: 15px 0;
+}
+.ota {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  background-color: #458ff6;
+  color: white;
+}
+
+.article {
+  padding: 40px 0;
+}
+.article h2 {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+
+}
+.article-card{
+  width: 380px;
+  height: 516px;
+  background-color: #ededef;
+  border-radius: 10px;
+}
+.article-card h3,p{
+  margin: 30px;
+}
+.article-card a{
+  padding-left: 30px;
+  text-decoration: none;
+  color: #4089ED;
+  font-size: 20px;
+}
+
+.article-card a::after{
+  content: url("./img/Group\ 16.png");
+}
+
+.ota2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
